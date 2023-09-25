@@ -1,3 +1,4 @@
 .idea/
 app/unpackage
 mal/LOG_HOME_IS_UNDEFINED
+/admin/node_modules
