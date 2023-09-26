@@ -21,7 +21,7 @@ import java.util.Date;
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
-@TableName("t_user_brokerage_record")
+@TableName("eb_user_brokerage_record")
 @ApiModel(value="UserBrokerageRecord对象", description="用户佣金记录表")
 public class UserBrokerageRecord implements Serializable {
 

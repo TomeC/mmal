@@ -20,7 +20,7 @@ import java.util.Date;
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
-@TableName("t_system_menu")
+@TableName("eb_system_menu")
 @ApiModel(value="SystemMenu对象", description="系统菜单表")
 public class SystemMenu implements Serializable {
 

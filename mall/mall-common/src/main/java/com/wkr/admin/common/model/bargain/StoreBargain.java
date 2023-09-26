@@ -19,7 +19,7 @@ import lombok.experimental.Accessors;
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
-@TableName("t_store_bargain")
+@TableName("eb_store_bargain")
 @ApiModel(value="StoreBargain对象", description="砍价表")
 public class StoreBargain implements Serializable {
 

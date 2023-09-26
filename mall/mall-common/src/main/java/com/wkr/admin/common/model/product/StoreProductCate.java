@@ -17,7 +17,7 @@ import lombok.experimental.Accessors;
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
-@TableName("t_store_product_cate")
+@TableName("eb_store_product_cate")
 @ApiModel(value="StoreProductCate对象", description="商品分类辅助表")
 public class StoreProductCate implements Serializable {
 

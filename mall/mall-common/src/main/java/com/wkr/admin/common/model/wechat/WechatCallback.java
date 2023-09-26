@@ -23,7 +23,7 @@ import java.util.Date;
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
-@TableName("t_wechat_callback")
+@TableName("eb_wechat_callback")
 @ApiModel(value="WechatCallback对象", description="微信回调表")
 public class WechatCallback implements Serializable {
 

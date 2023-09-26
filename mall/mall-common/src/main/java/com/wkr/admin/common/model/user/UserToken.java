@@ -18,7 +18,7 @@ import lombok.experimental.Accessors;
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
-@TableName("t_user_token")
+@TableName("eb_user_token")
 @ApiModel(value="UserToken对象", description="")
 public class UserToken implements Serializable {
 

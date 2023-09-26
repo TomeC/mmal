@@ -157,6 +157,7 @@ export default {
     fullWidth(val) {
       // 为了避免频繁触发resize函数导致页面卡顿，使用定时器
       if (!this.timer) {
+        console.log("fullwidth=",val)
         // 一旦监听到的screenWidth值改变，就将其重新赋给data里的screenWidth
         this.screenWidth = val
         this.timer = true
@@ -272,6 +273,9 @@ export default {
         this.swiperList = res.banner
         this.loginLogo = res.loginLogo
         this.backgroundImages = res.backgroundImage
+        console.log("swiperList:", this.swiperList)
+        console.log("loginLogo:", this.loginLogo)
+        console.log("backgroundImages:", this.backgroundImages)
         // Cookies.set('MerInfo', JSON.stringify(data))
       })
     },

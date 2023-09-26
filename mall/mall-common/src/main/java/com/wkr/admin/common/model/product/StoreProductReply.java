@@ -20,7 +20,7 @@ import lombok.experimental.Accessors;
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
-@TableName("t_store_product_reply")
+@TableName("eb_store_product_reply")
 @ApiModel(value="StoreProductReply对象", description="评论表")
 public class StoreProductReply implements Serializable {
 

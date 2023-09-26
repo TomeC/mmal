@@ -19,7 +19,7 @@ import java.util.Date;
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
-@TableName("t_system_group_data")
+@TableName("eb_system_group_data")
 @ApiModel(value="SystemGroupData对象", description="组合数据详情表")
 public class SystemGroupData implements Serializable {
 

@@ -21,7 +21,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
-@TableName("t_template_message")
+@TableName("eb_template_message")
 @ApiModel(value="TemplateMessage对象", description="微信模板")
 public class TemplateMessage implements Serializable {
 

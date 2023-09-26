@@ -20,7 +20,7 @@ import java.util.Date;
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
-@TableName("t_shipping_templates_region")
+@TableName("eb_shipping_templates_region")
 @ApiModel(value="ShippingTemplatesRegion对象", description="")
 public class ShippingTemplatesRegion implements Serializable {
 

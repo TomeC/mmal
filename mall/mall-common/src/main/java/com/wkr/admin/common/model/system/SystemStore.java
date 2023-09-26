@@ -20,7 +20,7 @@ import org.apache.ibatis.type.JdbcType;
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
-@TableName("t_system_store")
+@TableName("eb_system_store")
 @ApiModel(value="SystemStore对象", description="门店自提")
 public class SystemStore implements Serializable {
 

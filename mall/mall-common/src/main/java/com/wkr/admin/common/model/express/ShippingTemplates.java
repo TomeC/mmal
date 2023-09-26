@@ -19,7 +19,7 @@ import lombok.experimental.Accessors;
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
-@TableName("t_shipping_templates")
+@TableName("eb_shipping_templates")
 @ApiModel(value="ShippingTemplates对象", description="")
 public class ShippingTemplates implements Serializable {
 

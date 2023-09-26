@@ -23,7 +23,7 @@ import lombok.experimental.Accessors;
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
-@TableName("t_user_bill")
+@TableName("eb_user_bill")
 @ApiModel(value="UserBill对象", description="用户账单表")
 public class UserBill implements Serializable {
 

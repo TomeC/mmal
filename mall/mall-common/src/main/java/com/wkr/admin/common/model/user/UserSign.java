@@ -19,7 +19,7 @@ import java.util.Date;
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
-@TableName("t_user_sign")
+@TableName("eb_user_sign")
 @ApiModel(value="UserSign对象", description="签到记录表")
 public class UserSign implements Serializable {
 

@@ -21,7 +21,7 @@ import java.util.Date;
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
-@TableName("t_store_order")
+@TableName("eb_store_order")
 @ApiModel(value="StoreOrder对象", description="订单表")
 public class StoreOrder implements Serializable {
 

@@ -20,7 +20,7 @@ import lombok.experimental.Accessors;
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
-@TableName("t_store_order_info")
+@TableName("eb_store_order_info")
 @ApiModel(value="StoreOrderInfo对象", description="订单购物详情表")
 public class StoreOrderInfo implements Serializable {
 

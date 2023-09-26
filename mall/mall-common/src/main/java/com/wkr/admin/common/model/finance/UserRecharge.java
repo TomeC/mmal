@@ -20,7 +20,7 @@ import lombok.experimental.Accessors;
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
-@TableName("t_user_recharge")
+@TableName("eb_user_recharge")
 @ApiModel(value="UserRecharge对象", description="用户充值表")
 public class UserRecharge implements Serializable {
 

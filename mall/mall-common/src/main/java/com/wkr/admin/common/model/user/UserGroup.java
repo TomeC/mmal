@@ -17,7 +17,7 @@ import lombok.experimental.Accessors;
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
-@TableName("t_user_group")
+@TableName("eb_user_group")
 @ApiModel(value="UserGroup对象", description="用户分组表")
 public class UserGroup implements Serializable {
 

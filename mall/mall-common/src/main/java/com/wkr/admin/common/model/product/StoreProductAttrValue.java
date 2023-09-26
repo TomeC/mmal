@@ -20,7 +20,7 @@ import lombok.experimental.Accessors;
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
-@TableName("t_store_product_attr_value")
+@TableName("eb_store_product_attr_value")
 @ApiModel(value="StoreProductAttrValue对象", description="商品属性值表")
 public class StoreProductAttrValue implements Serializable {
 

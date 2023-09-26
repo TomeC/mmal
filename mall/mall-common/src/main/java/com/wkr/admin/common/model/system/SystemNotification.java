@@ -19,7 +19,7 @@ import java.util.Date;
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
-@TableName("t_system_notification")
+@TableName("eb_system_notification")
 @ApiModel(value="SystemNotification对象", description="通知设置表")
 public class SystemNotification implements Serializable {
 

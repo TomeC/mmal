@@ -19,7 +19,7 @@ import java.util.Date;
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
-@TableName("t_wechat_exceptions")
+@TableName("eb_wechat_exceptions")
 @ApiModel(value="WechatExceptions对象", description="微信异常表")
 public class WechatExceptions implements Serializable {
 

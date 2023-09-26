@@ -17,7 +17,7 @@ import lombok.experimental.Accessors;
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
-@TableName("t_store_order_status")
+@TableName("eb_store_order_status")
 @ApiModel(value="StoreOrderStatus对象", description="订单操作记录表")
 public class StoreOrderStatus implements Serializable {
 

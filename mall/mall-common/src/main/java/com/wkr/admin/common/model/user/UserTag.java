@@ -17,7 +17,7 @@ import lombok.experimental.Accessors;
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
-@TableName("t_user_tag")
+@TableName("eb_user_tag")
 @ApiModel(value="UserTag对象", description="用户标签表")
 public class UserTag implements Serializable {
 

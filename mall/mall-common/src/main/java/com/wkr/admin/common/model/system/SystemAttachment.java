@@ -19,7 +19,7 @@ import lombok.experimental.Accessors;
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
-@TableName("t_system_attachment")
+@TableName("eb_system_attachment")
 @ApiModel(value="SystemAttachment对象", description="附件管理表")
 public class SystemAttachment implements Serializable {
 

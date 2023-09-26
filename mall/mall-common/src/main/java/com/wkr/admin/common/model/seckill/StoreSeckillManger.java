@@ -18,7 +18,7 @@ import lombok.experimental.Accessors;
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
-@TableName("t_store_seckill_manger")
+@TableName("eb_store_seckill_manger")
 @ApiModel(value="StoreSeckillManger对象", description="商品秒杀管理表")
 public class StoreSeckillManger implements Serializable {
 

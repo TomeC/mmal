@@ -22,7 +22,7 @@ import java.io.Serializable;
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
-//@TableName("t_system_permissions")
+//@TableName("eb_system_permissions")
 @ApiModel(value="SystemPermissions对象", description="系统权限表")
 public class SystemPermissions implements Serializable {
 

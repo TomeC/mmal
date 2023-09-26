@@ -16,7 +16,7 @@ import java.io.Serializable;
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
-@TableName("t_system_role_menu")
+@TableName("eb_system_role_menu")
 @ApiModel(value="SystemRoleMenu对象", description="角色菜单关联表")
 public class SystemRoleMenu implements Serializable {
 

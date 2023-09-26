@@ -19,7 +19,7 @@ import java.util.Date;
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
-@TableName("t_user_experience_record")
+@TableName("eb_user_experience_record")
 @ApiModel(value="UserExperienceRecord对象", description="用户经验记录表")
 public class UserExperienceRecord implements Serializable {
 
