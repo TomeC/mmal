@@ -15,7 +15,7 @@ const SettingMer = {
   // 服务器地址
   httpUrl: VUE_APP_API_URL,
   // 接口请求地址
-  apiBaseURL: VUE_APP_API_URL + '/api/',
+  apiBaseURL: VUE_APP_API_URL + '/api',
   // socket连接
   wsSocketUrl: VUE_APP_WS_URL
 }

@@ -597,7 +597,7 @@ export const selectComponents = [
     accept: '',
     // headers: { 'Authori-zation': getToken() },
     // data: { model: 'product', pid: 0 },
-    // action: SettingMer.apiBaseURL + 'admin/upload/image?model=product&pid=0',
+    // action: SettingMer.apiBaseURL + '/admin/upload/image?model=product&pid=0',
     // disabled: false,
     // accept: '',
     name: 'upfile',

@@ -5,6 +5,8 @@ export default {
   name: 'AuthRedirect',
   created() {
     const hash = window.location.search.slice(1)
+    console.log('hash', hash)
+    console.log(window.location.search)
     if (window.localStorage) {
       window.localStorage.setItem('x-admin-oauth-code', hash)
       window.close()

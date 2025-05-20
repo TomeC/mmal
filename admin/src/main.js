@@ -25,7 +25,7 @@ import { parseTime, resetForm, addDateRange, selectDictLabel, selectDictLabels, 
 // 懒加载
 import VueLazyload from 'vue-lazyload'
 
-Vue.config.devtools=true
+Vue.config.devtools = true
 import App from './App'
 import store from './store'
 import router from './router'
@@ -61,6 +61,7 @@ import * as selfUtil from '@/utils/ZBKJIutil.js';
 import SettingMer from "@/utils/settingMer";
 import plugins from './plugins'
 import directive from './directive' //directive
+import '@/mock/mock.js'
 
 Vue.use(VueLazyload, {
   preLoad: 1.3,
@@ -94,12 +95,12 @@ Vue.prototype.$util = util;
 Vue.prototype.$constants = constants;
 Vue.prototype.$selfUtil = selfUtil;
 Vue.prototype.$timeOptions = timeOptions;
-Vue.prototype.$validator = function(rule) {
+Vue.prototype.$validator = function (rule) {
   return new schema(rule);
 };
 Vue.prototype.handleTree = handleTree
-Vue.prototype.parseTime = parseTime 
-Vue.prototype.resetForm = resetForm 
+Vue.prototype.parseTime = parseTime
+Vue.prototype.resetForm = resetForm
 
 let cookieName = "VCONSOLE";
 let query = parseQuery();
@@ -122,7 +123,7 @@ if (vconsole !== undefined && vconsole === md5Crmeb) {
   });
 }
 // 自定义实现String 类型的replaceAll方法
-String.prototype.replaceAll = function(s1, s2) {
+String.prototype.replaceAll = function (s1, s2) {
   return this.replace(new RegExp(s1, "gm"), s2);
 }
 
@@ -192,14 +193,14 @@ function newVue(attrs, main, html) {
   }).$mount('#app')
 }
 
-String.prototype.replaceAll = function(s1, s2) {
+String.prototype.replaceAll = function (s1, s2) {
   return this.replace(new RegExp(s1, "gm"), s2);
 }
 
 // 添加crmeb chat 统计
-var __s = document.createElement('script');
-__s.src=`${SettingMer.apiBaseURL}/public/jsconfig/getcrmebchatconfig`;
-document.head.appendChild(__s);
+// var __s = document.createElement('script');
+// __s.src = `${SettingMer.apiBaseURL}/public/jsconfig/getcrmebchatconfig`;
+// document.head.appendChild(__s);
 
 new Vue({
   el: '#app',

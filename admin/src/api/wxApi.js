@@ -1,16 +1,7 @@
-// +----------------------------------------------------------------------
-// | CRMEB [ CRMEB赋能开发者，助力企业发展 ]
-// +----------------------------------------------------------------------
-// | Copyright (c) 2016~2021 https://www.crmeb.com All rights reserved.
-// +----------------------------------------------------------------------
-// | Licensed CRMEB并不是自由软件，未经许可不能去掉CRMEB相关版权
-// +----------------------------------------------------------------------
-// | Author: CRMEB Team <admin@crmeb.com>
-// +----------------------------------------------------------------------
 
 import request from '@/utils/request'
 
-export function menuCreate(data) { 
+export function menuCreate(data) {
   return request({
     url: '/admin/wechat/menu/public/create',
     method: 'post',
@@ -334,7 +325,7 @@ export function getWechatConfig() {
   return request({
     url: `/admin/wechat/config`,
     method: 'get',
-    params:{ url: encodeURIComponent(location.href.split('#')[0]) } // for Test
+    params: { url: encodeURIComponent(location.href.split('#')[0]) } // for Test
   })
 }
 
@@ -373,7 +364,7 @@ export function tempAsyncApi() {
 /**
  * 公众号模板消息同步
  */
- export function wechatAsyncApi() {
+export function wechatAsyncApi() {
   return request({
     url: `/admin/wechat/template/whcbqhn/sync`,
     method: 'post'
@@ -383,7 +374,7 @@ export function tempAsyncApi() {
 /**
  * 小程序模板消息同步
  */
- export function routineAsyncApi() {
+export function routineAsyncApi() {
   return request({
     url: `/admin/wechat/template/routine/sync`,
     method: 'post'
@@ -393,7 +384,7 @@ export function tempAsyncApi() {
 /**
  * 小程序源码下载
  */
- export function wechatCodeDownload() {
+export function wechatCodeDownload() {
   return request({
     url: `/admin/wechat/code/download`,
     method: 'get'

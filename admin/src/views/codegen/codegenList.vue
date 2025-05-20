@@ -98,7 +98,7 @@ export default {
       });
     },
     handleGenCode(){
-      window.open(`${SettingMer.apiBaseURL}codegen/code?tables=${this.codeListData.selectedTables.join(",")}`);
+      window.open(`${SettingMer.apiBaseURL}/codegen/code?tables=${this.codeListData.selectedTables.join(",")}`);
 
     }
   }
